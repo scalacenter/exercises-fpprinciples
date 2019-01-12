@@ -20,8 +20,8 @@ object TermsAndTypes extends ScalaTutorialSection {
     *
     * Every non-trivial programming language provides:
     *
-    *  - primitive expressions representing the simplest elements ;
-    *  - ways to ''combine'' expressions ;
+    *  - primitive expressions representing the simplest elements;
+    *  - ways to ''combine'' expressions;
     *  - ways to ''abstract'' expressions, which introduce a name for an expression by which it can then be referred to.
     *
     * = Primitive Expressions =
@@ -167,9 +167,11 @@ object TermsAndTypes extends ScalaTutorialSection {
   /**
     * = Common Types =
     *
-    *  - `Int`: 32-bit integers (e.g. `1`, `23`, `456`)
-    *  - `Double`: 64-bit floating point numbers (e.g. `1.0`, `2.3`, `4.56`)
-    *  - `Boolean`: boolean values (`true` and `false`)
+    *  - `Int`: 32-bit signed integer (e.g. `1`, `23`, `456`)
+    *  - `Long`: 64-bit signed integer (e.g. `1L`, `23L`, `456L`)
+    *  - `Float`: 32-bit [[https://en.wikipedia.org/wiki/IEEE_754 IEEE-754]] floating point number (e.g. `1.0F`, `2.3F`, `4.56F`)
+    *  - `Double`: 64-bit [[https://en.wikipedia.org/wiki/IEEE_754 IEEE-754]] floating point number (e.g. `1.0D`, `2.3D`, `4.56D`)
+    *  - `Boolean`: boolean value (`true` and `false`)
     *  - `String`: text (e.g. `"foo"`, `"bar"`)
     *
     * Note that type names always begin with an upper case letter.
